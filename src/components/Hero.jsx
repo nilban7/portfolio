@@ -12,7 +12,7 @@ export default function Hero() {
     const scale = useTransform(scrollYProgress, [0, 1], [1, 0.90]);
     const opacity = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
     const blur = useTransform(scrollYProgress, [0, 1], ["blur(0px)", "blur(8px)"]);
-    const overlayOpacity = useTransform(scrollYProgress, [0, 1], [0.4, 0.85]);
+    const overlayOpacity = useTransform(scrollYProgress, [0, 1], [0, 0]); // Removed black overlay for testing
 
     // Text specific scroll animations for a "sticky depth fade" effect
     const textY = useTransform(scrollYProgress, [0, 1], [0, 0]); // Pinned vertically
