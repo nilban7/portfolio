@@ -23,17 +23,6 @@ export default function Hero() {
 
     const [currentWordIndex, setCurrentWordIndex] = useState(0);
 
-    const videoRef = useRef(null);
-
-    // Force autoplay for aggressive browsers (like iOS Safari or some Chrome versions)
-    useEffect(() => {
-        if (videoRef.current) {
-            videoRef.current.play().catch(error => {
-                console.log("Autoplay was prevented by the browser:", error);
-            });
-        }
-    }, []);
-
     // Effect for the rotating text
     useEffect(() => {
         const interval = setInterval(() => {
