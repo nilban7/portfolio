@@ -73,7 +73,7 @@ export default function Hero() {
                 }}
             >
                 <motion.h1
-                    className="text-primary font-bold text-6xl md:text-8xl will-change-transform whitespace-nowrap"
+                    className="text-primary font-bold text-5xl md:text-8xl will-change-transform text-center whitespace-normal md:whitespace-nowrap px-4"
                     style={{ letterSpacing: textTracking }}
                     initial={{ opacity: 0, y: 40 }}
                     animate={{ opacity: 1, y: 0 }}
