@@ -12,7 +12,7 @@ export default function Hero() {
     const scale = useTransform(scrollYProgress, [0, 1], [1, 0.90]);
     const opacity = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
     const blur = useTransform(scrollYProgress, [0, 1], ["blur(0px)", "blur(8px)"]);
-    const overlayOpacity = useTransform(scrollYProgress, [0, 1], [0, 0]); // Removed black overlay for testing
+    const overlayOpacity = useTransform(scrollYProgress, [0, 1], [0.1, 0.1]); // Light overlay for readability
 
     // Text specific scroll animations for a "sticky depth fade" effect
     const textY = useTransform(scrollYProgress, [0, 1], [0, 0]); // Pinned vertically
@@ -91,7 +91,7 @@ export default function Hero() {
                             animate={{ y: 0, opacity: 1 }}
                             exit={{ y: -40, opacity: 0 }}
                             transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-                            className="absolute text-accent text-2xl md:text-4xl font-normal md:font-medium tracking-[0.2em] md:tracking-[0.3em] uppercase whitespace-nowrap"
+                            className="absolute text-[#FFD700] drop-shadow-md text-2xl md:text-4xl font-normal md:font-medium tracking-[0.2em] md:tracking-[0.3em] uppercase whitespace-nowrap"
                         >
                             {words[currentWordIndex]}
                         </motion.span>
