@@ -1,5 +1,5 @@
 import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
 
 const words = ["ENGINEER", "HACKER", "DEVELOPER", "TRADER", "SINGER", "STRATEGIST", "PAINTER", "MARKETER", "ROBOTICIST"];
 
@@ -23,18 +23,6 @@ export default function Hero() {
 
     const [currentWordIndex, setCurrentWordIndex] = useState(0);
 
-    const videoRef = useRef(null);
-
-    // Force autoplay for aggressive browsers (like iOS Safari or some Chrome versions)
-    useEffect(() => {
-        if (videoRef.current) {
-            videoRef.current.play().catch(error => {
-                console.log("Autoplay was prevented by the browser:", error);
-            });
-        }
-    }, []);
-
-    // Effect for the rotating text
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentWordIndex((prev) => (prev + 1) % words.length);
@@ -53,20 +41,18 @@ export default function Hero() {
         >
             {/* Background Video */}
             <video
-                ref={videoRef}
                 autoPlay
                 muted
                 loop
                 playsInline
-                disablePictureInPicture
                 preload="auto"
-                className="absolute inset-0 w-full h-full object-cover -z-20 disable-pointer-events"
+                className="absolute inset-0 w-full h-full object-cover -z-20"
                 src="/assets/Ocean_Sea_3840x2160.mp4"
             />
 
             {/* Dynamic Overlay */}
             <motion.div
-                className="absolute inset-0 bg-black -z-10 will-change-transform pointer-events-none"
+                className="absolute inset-0 bg-black -z-10 will-change-transform"
                 style={{ opacity: overlayOpacity }}
             />
 
