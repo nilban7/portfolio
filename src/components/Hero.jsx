@@ -67,10 +67,10 @@ export default function Hero() {
             />
 
             {/* Edge Fade Gradients */}
-            <div className="absolute top-0 left-0 right-0 h-48 bg-gradient-to-b from-background to-transparent z-0 pointer-events-none opacity-40 md:opacity-100" />
-            <div className="absolute bottom-0 left-0 right-0 h-48 bg-gradient-to-t from-background to-transparent z-0 pointer-events-none opacity-40 md:opacity-100" />
-            <div className="absolute top-0 bottom-0 left-0 w-48 bg-gradient-to-r from-background to-transparent z-0 pointer-events-none opacity-40 md:opacity-100" />
-            <div className="absolute top-0 bottom-0 right-0 w-48 bg-gradient-to-l from-background to-transparent z-0 pointer-events-none opacity-40 md:opacity-100" />
+            <div className="absolute top-0 left-0 right-0 h-16 md:h-48 bg-gradient-to-b from-background to-transparent z-0 pointer-events-none" />
+            <div className="absolute bottom-0 left-0 right-0 h-32 md:h-48 bg-gradient-to-t from-background to-transparent z-0 pointer-events-none" />
+            <div className="absolute top-0 bottom-0 left-0 w-12 md:w-48 bg-gradient-to-r from-background to-transparent z-0 pointer-events-none" />
+            <div className="absolute top-0 bottom-0 right-0 w-12 md:w-48 bg-gradient-to-l from-background to-transparent z-0 pointer-events-none" />
 
             {/* Hero Content Wrapper for Scroll Animations */}
             <motion.div
