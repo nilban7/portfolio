@@ -49,7 +49,7 @@ export default function Hero() {
         >
             {/* Background Image Test */}
             <img 
-                src="/assets/seashore2.jpg"
+                src="/assets/gptimage1.png"
                 alt="Sea Splash"
                 className="absolute inset-0 w-full h-full object-cover -z-20"
             />
