@@ -21,6 +21,12 @@ const socialLinks = [
         label: "kolkata.engineer"
     },
     {
+        name: "Kolkata.ltd",
+        url: "https://kolkata.ltd",
+        icon: Globe,
+        label: "kolkata.ltd"
+    },
+    {
         name: "Wikidata",
         url: "https://www.wikidata.org/wiki/Q141201198",
         icon: ExternalLink,
