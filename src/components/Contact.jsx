@@ -39,6 +39,12 @@ const socialLinks = [
         label: "Gravatar"
     },
     {
+        name: "Crunchbase",
+        url: "https://www.crunchbase.com/person/niladri-banerjee-9b9a",
+        icon: ExternalLink,
+        label: "Crunchbase"
+    },
+    {
         name: "Wikidata",
         url: "https://www.wikidata.org/wiki/Q141201198",
         icon: ExternalLink,
