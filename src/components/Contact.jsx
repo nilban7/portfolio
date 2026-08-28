@@ -33,6 +33,12 @@ const socialLinks = [
         label: "ORCID iD"
     },
     {
+        name: "Gravatar",
+        url: "https://gravatar.com/vibrantloudlyfaf17230d5",
+        icon: Globe,
+        label: "Gravatar"
+    },
+    {
         name: "Wikidata",
         url: "https://www.wikidata.org/wiki/Q141201198",
         icon: ExternalLink,
