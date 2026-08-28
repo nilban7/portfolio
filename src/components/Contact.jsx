@@ -27,6 +27,12 @@ const socialLinks = [
         label: "kolkata.ltd"
     },
     {
+        name: "ORCID",
+        url: "https://orcid.org/0009-0004-0079-9251",
+        icon: ExternalLink,
+        label: "ORCID iD"
+    },
+    {
         name: "Wikidata",
         url: "https://www.wikidata.org/wiki/Q141201198",
         icon: ExternalLink,
