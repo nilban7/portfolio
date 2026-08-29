@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Globe, BookOpen, ExternalLink } from 'lucide-react';
+import { Github, Linkedin, Globe, BookOpen, ExternalLink, Film } from 'lucide-react';
 
 const socialLinks = [
     {
@@ -13,6 +13,12 @@ const socialLinks = [
         url: "https://github.com/nilban7",
         icon: Github,
         label: "GitHub"
+    },
+    {
+        name: "IMDb",
+        url: "https://www.imdb.com/name/nm18856293/",
+        icon: Film,
+        label: "IMDb"
     },
     {
         name: "Kolkata Engineer",
