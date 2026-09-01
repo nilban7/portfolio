@@ -3,6 +3,12 @@ import { useRef } from 'react';
 
 const experiences = [
     {
+        role: "Founder",
+        company: "Marktech Labs Kolkata",
+        period: "2024 - Present",
+        description: "Leading Marktech Labs in Kolkata, building intelligent systems, innovative AI solutions, and high-impact technology products."
+    },
+    {
         role: "Head of Marketing and Public Relations (Lead)",
         company: "GDG On-Campus Techno Main Salt Lake",
         period: "Oct 2025 - Present",

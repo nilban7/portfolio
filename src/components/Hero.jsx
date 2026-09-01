@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 
 const words = [
+  'FOUNDER',
   'ENGINEER',
   'HACKER',
   'DEVELOPER',

@@ -56,7 +56,7 @@ export default function About() {
                 {/* Kinetic Content Directly Below Heading */}
                 <div className="flex flex-col space-y-4">
                     <Paragraph 
-                        text="I’m Niladri Banerjee — I build systems that think." 
+                        text="I’m Niladri Banerjee — Founder of Marktech Labs Kolkata, building systems that think." 
                         progress={scrollYProgress} 
                         range={[0, 0.3]} 
                         colorClass="text-accent"
