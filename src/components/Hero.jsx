@@ -31,7 +31,7 @@ export default function Hero() {
     <section className="relative w-full h-[100vh] overflow-hidden flex items-center justify-center bg-[#050508]">
       {/* Background Image */}
       <img
-        src="/assets/gptimage1.png"
+        src="/assets/gptimage2.png"
         alt="Hero Background"
         className="absolute inset-0 w-full h-full object-cover -z-20 opacity-40"
         onError={(e) => { e.target.style.display = 'none'; }}
