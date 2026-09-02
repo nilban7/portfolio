@@ -1,4 +1,13 @@
 User-agent: *
 Allow: /
 
+# Image & Bot indexing rules
+User-agent: Googlebot
+Allow: /
+Allow: /niladri-banerjee-hero.png
+Allow: /portfolio.jpg
+
+User-agent: Googlebot-Image
+Allow: /
+
 Sitemap: https://niladribanerjee.in/sitemap.xml
