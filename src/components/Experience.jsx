@@ -18,7 +18,7 @@ const experiences = [
         role: "Bachelor of Technology - BTech, ECE",
         company: "Techno Main - Salt Lake",
         period: "Sep 2023 - Present",
-        description: "Studying Electrical, Electronic and Communications Engineering."
+        description: "Studying Electronics and Communication Engineering."
     },
     {
         role: "High School (ISC & ICSE, Science)",
