@@ -40,14 +40,17 @@ export default function Hero() {
             }}
         >
             {/* Background Portrait Image */}
-            <img
-                src="/niladri-banerjee-hero.png"
-                alt="Niladri Banerjee - Software Developer, AI Engineer, and Robotics Engineer"
-                title="Niladri Banerjee"
-                className="absolute inset-0 w-full h-full object-cover object-[25%_center] md:object-center -z-20 select-none pointer-events-none"
-                loading="eager"
-                fetchPriority="high"
-            />
+            <picture className="absolute inset-0 w-full h-full -z-20">
+                <source srcSet="/niladri-banerjee-hero.webp" type="image/webp" />
+                <img
+                    src="/niladri-banerjee-hero.png"
+                    alt="Niladri Banerjee - Software Developer, AI Engineer, and Robotics Engineer"
+                    title="Niladri Banerjee"
+                    className="w-full h-full object-cover object-[25%_center] md:object-center select-none pointer-events-none"
+                    loading="eager"
+                    fetchPriority="high"
+                />
+            </picture>
 
             {/* Dynamic Overlay for Enhanced Readability */}
             <motion.div
@@ -56,10 +59,10 @@ export default function Hero() {
             />
 
             {/* Edge Fade Gradients for Seamless Blending with Dark Theme */}
-            <div className="absolute top-0 left-0 right-0 h-40 bg-gradient-to-b from-background via-background/60 to-transparent z-0 pointer-events-none" />
-            <div className="absolute bottom-0 left-0 right-0 h-48 bg-gradient-to-t from-background via-background/70 to-transparent z-0 pointer-events-none" />
-            <div className="absolute top-0 bottom-0 left-0 w-32 md:w-48 bg-gradient-to-r from-background/80 md:from-transparent to-transparent z-0 pointer-events-none" />
-            <div className="absolute top-0 bottom-0 right-0 w-32 md:w-48 bg-gradient-to-l from-background/80 md:from-transparent to-transparent z-0 pointer-events-none" />
+            <div className="absolute top-0 left-0 right-0 h-24 md:h-40 bg-gradient-to-b from-background via-background/60 to-transparent z-0 pointer-events-none" />
+            <div className="absolute bottom-0 left-0 right-0 h-32 md:h-48 bg-gradient-to-t from-background via-background/70 to-transparent z-0 pointer-events-none" />
+            <div className="absolute top-0 bottom-0 left-0 w-8 md:w-48 bg-gradient-to-r from-background/80 md:from-transparent to-transparent z-0 pointer-events-none" />
+            <div className="absolute top-0 bottom-0 right-0 w-8 md:w-48 bg-gradient-to-l from-background/80 md:from-transparent to-transparent z-0 pointer-events-none" />
 
             {/* Hero Content Wrapper positioned in the right empty space on desktop */}
             <motion.div
@@ -71,13 +74,12 @@ export default function Hero() {
                     filter: textBlur
                 }}
             >
-                <div className="w-full md:w-[55%] lg:w-[50%] xl:w-[46%] flex flex-col items-center md:items-start text-center md:text-left bg-black/35 md:bg-transparent backdrop-blur-[2px] md:backdrop-blur-none p-6 md:p-0 rounded-2xl md:rounded-none border border-white/10 md:border-none shadow-2xl md:shadow-none">
+                <div className="w-full md:w-[55%] lg:w-[50%] xl:w-[46%] flex flex-col items-center md:items-start text-center md:text-left bg-black/25 md:bg-transparent backdrop-blur-[1px] md:backdrop-blur-none p-6 md:p-0 rounded-2xl md:rounded-none border border-white/10 md:border-none shadow-2xl md:shadow-none">
                     <motion.h1
                         className="text-white font-black text-4xl sm:text-6xl md:text-6xl lg:text-7xl xl:text-8xl tracking-tight leading-tight md:leading-none drop-shadow-[0_4px_24px_rgba(0,0,0,0.8)] whitespace-normal"
                         style={{ letterSpacing: textTracking }}
-                        initial={{ opacity: 0, y: 40 }}
+                        initial={{ opacity: 1, y: 0 }}
                         animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 1.5, ease: [0.16, 1, 0.3, 1] }}
                     >
                         NILADRI BANERJEE
                     </motion.h1>
