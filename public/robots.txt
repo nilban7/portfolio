@@ -5,6 +5,7 @@ Allow: /
 User-agent: Googlebot
 Allow: /
 Allow: /niladri-banerjee-hero.png
+Allow: /niladri-banerjee-hero.webp
 Allow: /portfolio.jpg
 
 User-agent: Googlebot-Image
