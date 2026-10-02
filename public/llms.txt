@@ -1,0 +1,38 @@
+# Niladri Banerjee
+
+> Software Developer, AI & Robotics Engineer based in Kolkata, India. Founder of Marktech Labs Kolkata.
+
+## Overview
+Niladri Banerjee is a software developer, AI engineer, and robotics researcher currently pursuing a Bachelor of Technology in Electronics and Communication Engineering (ECE) at Techno Main Salt Lake. He specializes in embedded intelligence, machine learning, LoRa communication protocols, and modern web systems.
+
+## Professional Experience
+- **Founder**, Marktech Labs Kolkata (2024 - Present): Leading development of intelligent AI solutions, embedded systems, and impactful technology products.
+- **Head of Marketing & Public Relations (Lead)**, GDG On-Campus Techno Main Salt Lake (Oct 2025 - Present): Brand presence management, integrated marketing, and technical community leadership.
+
+## Education & Government Credentials
+- **Bachelor of Technology (B.Tech) in Electronics & Communication Engineering**, Techno Main Salt Lake, Kolkata (Sep 2023 - Present)
+- **High School (ISC & ICSE, Science)**, St. Xavier's Institution (Apr 2020 - Apr 2023, Passed with A+ grade, Head Boy)
+- **Licensed Amateur Radio Operator (HAM)**: Callsign VU34II, officially licensed by the Wireless Planning & Coordination (WPC) Wing, Ministry of Communications, Government of India.
+
+## Selected Technical Projects
+- **Autonomous Autobot**: Autonomous obstacle-avoiding and line-following robotic vehicle powered by Arduino and sensor fusion algorithms.
+- **Portable AI Voice Assistant**: Handheld hardware voice assistant engineered for real-time natural language processing and interaction.
+- **Long Range LoRa Comm Protocol**: Research and custom protocol engineering for long-range, low-power LoRa communication in distributed embedded systems.
+
+## Core Technical Competencies
+- **Languages**: Python, C++, Java, JavaScript, TypeScript, SQL
+- **AI & Robotics**: Machine Learning, Neural Networks, Computer Vision, Natural Language Processing, Robot Kinematics
+- **Embedded & IoT**: Arduino, LoRa, ESP32, IoT Sensors, Radio Frequency (RF), Microcontroller Firmware
+- **Web & Infrastructure**: React, Node.js, Tailwind CSS, REST APIs, Git, Vercel
+
+## Verified Profiles & Contact
+- Official Website: https://niladribanerjee.in
+- Alternate Domain: https://niladribanerjee.com
+- GitHub: https://github.com/nilban7
+- LinkedIn: https://www.linkedin.com/in/niladriban
+- ORCID iD: https://orcid.org/0009-0004-0079-9251
+- Wikidata: https://www.wikidata.org/wiki/Q141201198
+- IMDb: https://www.imdb.com/name/nm18856293/
+- Crunchbase: https://www.crunchbase.com/person/niladri-banerjee-9b9a
+- Knowlepedia: https://knowlepedia.org/wiki/Niladri_Banerjee
+- Email: contact@niladribanerjee.in

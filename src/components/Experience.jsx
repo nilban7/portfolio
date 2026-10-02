@@ -96,15 +96,15 @@ export default function Experience() {
                                             transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
                                             className={`w-full md:w-[45%] pl-12 md:pl-0 ${isEven ? 'md:pr-16 md:text-right' : 'md:pl-16 md:text-left'}`}
                                         >
-                                            <h4 className="text-xl font-light text-accent tracking-widest mb-2 uppercase">
+                                            <p className="text-xl font-light text-accent tracking-widest mb-2 uppercase">
                                                 {exp.period}
-                                            </h4>
+                                            </p>
                                             <h3 className="text-3xl font-bold text-primary mb-3">
                                                 {exp.role}
                                             </h3>
-                                            <h5 className="text-xl text-primary/80 mb-6 font-medium">
+                                            <h4 className="text-xl text-primary/80 mb-6 font-medium">
                                                 {exp.company}
-                                            </h5>
+                                            </h4>
                                             <p className="text-secondary leading-relaxed font-light">
                                                 {exp.description}
                                             </p>
